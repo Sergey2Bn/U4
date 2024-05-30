@@ -18,3 +18,8 @@
   font-size: 12px;
   line-height: 141%;
 }
+
+.footer__cite:hover {
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.4s;
+}
