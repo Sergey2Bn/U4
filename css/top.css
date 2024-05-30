@@ -1,0 +1,29 @@
+.top {
+  padding: 40px 0 120px;
+  background-image: url(../img/office.jpg);
+}
+
+.top__contacts {
+  margin-bottom: 120px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 52px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.86);
+  margin-bottom: 35px;
+}
+
+.text {
+  font-size: 22px;
+  line-height: 141%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 90px;
+}
+
+.main-wrapper {
+  margin: 0 auto;
+  max-width: 990px;
+}

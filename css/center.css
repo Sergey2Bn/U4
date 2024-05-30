@@ -1,0 +1,84 @@
+.center {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.center__wrapper {
+  display: inline-block;
+  max-width: 724px;
+  margin-bottom: 50px;
+}
+
+.center__title {
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--grey);
+  margin-bottom: 25px;
+}
+
+.center__text {
+  color: var(--grey);
+}
+
+.center__about {
+  margin: 0 auto;
+  max-width: 189px;
+  position: relative;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+
+.center__text-main {
+  font-size: 18px;
+  line-height: 141%;
+}
+
+.center__about::before,
+.center__about::after {
+  position: absolute;
+  content: "";
+  display: block;
+  background-image: url(../img/ico/slash.svg);
+}
+
+.center__about::before {
+  width: 43px;
+  height: 2px;
+  top: 12px;
+}
+
+.center__about::after {
+  width: 43px;
+  height: 2px;
+  right: 0;
+  bottom: 12px;
+}
+
+.center__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.center__img {
+  display: inline-block;
+  border-radius: 100%;
+  padding: 33px 45px;
+  background-color: var(--blue);
+  margin-bottom: 16px;
+}
+
+.centr__img-text {
+  font-weight: 500;
+  font-size: 57px;
+  line-height: 100%;
+}
+
+.center__item-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 141%;
+  text-align: center;
+}
