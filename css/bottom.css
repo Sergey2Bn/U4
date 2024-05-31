@@ -1,5 +1,6 @@
 .bottom {
   background-image: url(../img/mans-office.jpg);
+  background-position: bottom;
 }
 
 .bottom__title {
