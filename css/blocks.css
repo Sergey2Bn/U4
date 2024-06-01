@@ -58,6 +58,7 @@
   box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
   border-radius: 50px;
   color: inherit;
+  transition: .4s;
 }
 
 .button:hover {
