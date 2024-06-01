@@ -56,11 +56,17 @@
 }
 
 .center__list {
+  margin: 0 auto;
+  max-width: 934px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 50px;
+}
+
+.center__item {
+  max-width: 196px;
 }
 
 .center__img {
