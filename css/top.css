@@ -51,3 +51,27 @@
     max-width: 780px;
   }
 }
+
+@media (max-width: 380px) {
+  .top {
+    padding: 15px 0 65px;
+  }
+
+  .top__contacts {
+    margin-bottom: 65px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 23px;
+  }
+
+  .text {
+    font-size: 14px;
+    margin-bottom: 54px;
+  }
+
+  .main-wrapper {
+    max-width: 290px;
+  }
+}

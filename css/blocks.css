@@ -65,6 +65,10 @@
   background-color: #15b8dc;
 }
 
+.contacts__img {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .logo {
     width: 60px;
@@ -81,5 +85,30 @@
 
   .button {
     padding: 11px 49px;
+  }
+}
+
+
+@media (max-width: 380px) {
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .contacts__wrapper {
+    display: none;
+  }
+
+  .button {
+    padding: 11px 49px;
+  }
+
+  .contacts__img {
+    display: block;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 9px 28px;
   }
 }

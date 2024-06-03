@@ -23,3 +23,32 @@
   color: rgba(255, 255, 255, 0.5);
   transition: 0.4s;
 }
+
+@media (max-width: 380px) {
+  .footer {
+    position: relative;
+    padding: 25px 0 72px;
+  }
+
+  .footer__contacts {
+    flex-wrap: wrap;
+  }
+
+  .logo-footer {
+    margin-right: 19px;
+  }
+
+  .footer__text {
+    font-size: 8px;
+  }
+
+  .footer__cite {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    padding: 15px 80px;
+    background-color: #2a2c3f;
+    bottom: 0;
+    left: 0;
+  }
+}
