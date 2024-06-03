@@ -45,7 +45,7 @@
 }
 
 .bottom__input:not(:last-child) {
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 
 .bottom__text-confirmation {
@@ -59,4 +59,39 @@
 
 .confirmation:hover {
   color: #5c8fc9;
+}
+
+@media (max-width: 1024px) {
+  .bottom {
+    padding: 70px 0 56px;
+  }
+
+  .bottom__title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .bottom__text {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .bottom__wrapper {
+    margin-bottom: 30px;
+  }
+
+  .bottom__input {
+    width: 379px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    padding: 8px 23px;
+  }
+
+  .bottom__text-confirmation {
+    font-size: 17px;
+  }
+
+  .bottom__button {
+    padding: 11px 38px;
+  }
 }
