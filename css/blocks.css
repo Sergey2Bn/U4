@@ -100,13 +100,21 @@
 }
 
 @media (max-width: 445px) {
-  .contacts__wrapper {
+
+  .contacts__number,
+  .contacts__button {
     display: none;
   }
 
-  .contacts__img {
+  .contacts__link {
     display: block;
+    background-image: url(../img/ico/Phone.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
   }
+
 }
 
 @media (max-width: 380px) {
@@ -122,5 +130,10 @@
   .button {
     font-size: 16px;
     padding: 9px 28px;
+  }
+
+  .contacts__link {
+    width: 24px;
+    height: 24px;
   }
 }
