@@ -88,6 +88,26 @@
   }
 }
 
+@media (max-width: 600px) {
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .contacts__number {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 445px) {
+  .contacts__wrapper {
+    display: none;
+  }
+
+  .contacts__img {
+    display: block;
+  }
+}
 
 @media (max-width: 380px) {
   .logo {
@@ -95,16 +115,8 @@
     height: 30px;
   }
 
-  .contacts__wrapper {
-    display: none;
-  }
-
   .button {
     padding: 11px 49px;
-  }
-
-  .contacts__img {
-    display: block;
   }
 
   .button {
