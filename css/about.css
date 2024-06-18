@@ -1,12 +1,12 @@
 .about {
   text-align: center;
-  padding: 70px 0;
+  padding: 71px 0;
 }
 
 .about__wrapper {
   display: inline-block;
   max-width: 724px;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
 }
 
 .about__title {
@@ -23,7 +23,7 @@
 
 .about__us {
   margin: 0 auto;
-  max-width: 189px;
+  max-width: 191px;
   position: relative;
   font-weight: 500;
   font-size: 22px;
@@ -52,8 +52,8 @@
 .about__us::after {
   width: 43px;
   height: 2px;
-  right: 0;
-  bottom: 12px;
+  right: 2px;
+  bottom: 11px;
 }
 
 .about__list {
@@ -71,7 +71,7 @@
   position: relative;
   flex-basis: 196px;
   flex-shrink: 2;
-  padding-top: 140px;
+  padding-top: 139px;
 }
 
 .about__img {
@@ -101,13 +101,13 @@
   counter-increment: count;
   display: block;
   border-radius: 100%;
-  padding: 33px 45px;
+  padding: 38px 46px 30px;
   background-color: var(--blue);
   color: #fff;
   font-weight: 500;
-  font-size: 57px;
+  font-size: 54px;
   line-height: 100%;
-  top: 0;
+  top: 3px;
   left: 50%;
   transform: translate(-50%, 0%);
 }
