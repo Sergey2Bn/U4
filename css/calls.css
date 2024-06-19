@@ -69,6 +69,7 @@
 @media (max-width: 1024px) {
   .calls {
     padding: 71.5px 0 56px;
+    background-image: url(../img/mans-office-1024.jpg);
   }
 
   .calls__title {
