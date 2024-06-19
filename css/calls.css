@@ -114,17 +114,25 @@
 
 @media (max-width: 380px) {
   .calls {
-    padding: 30px 0;
+    background-image: url(../img/mans-office-320.jpg);
+    padding: 29px 0;
   }
 
   .calls__title {
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
+    padding-left: 20px;
+    padding-top: 2px;
   }
 
   .calls__text {
     font-size: 12px;
-    margin-bottom: 35px;
+    margin-bottom: 34px;
+    padding: 0;
+  }
+
+  .calls__wrapper {
+    margin-bottom: 32px;
   }
 
   .calls__input-wrapper {
@@ -137,11 +145,15 @@
     padding: 6px 18px;
   }
 
+  .calls__input:not(:last-child) {
+    margin-bottom: 13px;
+  }
+
   .calls__text-confirmation {
     font-size: 11px;
   }
 
   .calls__button {
-    padding: 10px 26px;
+    padding: 9px 30px;
   }
 }

@@ -81,7 +81,7 @@
 
 @media (max-width: 380px) {
   .footer {
-    padding: 25px 0 0;
+    padding: 24px 0 0;
     background: linear-gradient(to bottom, #2f324b 80px, #2a2c3f 57px);
   }
 
