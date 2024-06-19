@@ -119,12 +119,13 @@
 
   .about__title {
     font-size: 32px;
-    margin-bottom: 23px;
+    margin-bottom: 24.5px;
   }
 
   .about__us {
     font-size: 20px;
-    max-width: 174px;
+    max-width: 176px;
+    margin-bottom: 30px;
   }
 
   .about__us::before {
@@ -134,7 +135,7 @@
 
   .about__us::after {
     width: 40px;
-    bottom: 10px;
+    bottom: 11px;
   }
 
   .about__text-main {
@@ -147,11 +148,13 @@
 
   .about__item {
     flex-basis: 180px;
-    padding-top: 131px;
+    padding-top: 135px;
   }
 
   .about__item-text::before {
-    padding: 20px 33px;
+    top: 5px;
+    left: 49.5%;
+    padding: 25px 36.5px;
     background-color: var(--blue);
   }
 

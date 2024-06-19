@@ -68,25 +68,32 @@
 
 @media (max-width: 1024px) {
   .calls {
-    padding: 70px 0 56px;
+    padding: 71.5px 0 56px;
   }
 
   .calls__title {
     font-size: 32px;
     margin-bottom: 16px;
+    padding-left: 15px;
   }
 
   .calls__text {
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
+    padding-left: 15px;
   }
 
   .calls__wrapper {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   .calls__input-wrapper {
     max-width: 379px;
+    margin-bottom: 50px;
+  }
+
+  .calls__input:not(:last-child) {
+    margin-bottom: 18px;
   }
 
   .calls__input {
@@ -99,7 +106,7 @@
   }
 
   .calls__button {
-    padding: 11px 38px;
+    padding: 11.5px 38px;
   }
 }
 

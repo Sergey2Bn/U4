@@ -1,7 +1,7 @@
 .section-bg {
   position: relative;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
 }
@@ -84,7 +84,7 @@
   }
 
   .button {
-    padding: 11px 49px;
+    padding: 11.7px 49px;
   }
 }
 

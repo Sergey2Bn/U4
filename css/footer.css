@@ -24,6 +24,12 @@
   transition: 0.4s;
 }
 
+@media (max-width: 1024px) {
+  .footer {
+    padding: 37px 0;
+  }
+}
+
 @media (max-width: 660px) {
   .footer {
     padding: 25px 0 0;
